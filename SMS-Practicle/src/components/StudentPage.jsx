@@ -54,8 +54,8 @@ const StudentPage = () => {
               <td>{s.GRid}</td>
               <td>{s.course}</td>
               <td>{s.MobileNumber}</td>
-              <td><button onClick={() => navigate(`/edit/${s._id}`)}>EDIT</button></td>
-              <td><button onClick={() => DeleteStudent(s._id)}>DELETE</button></td>
+              <td><button className='btn btn-primary' onClick={() => navigate(`/edit/${s._id}`)}>EDIT</button></td>
+              <td><button className='btn btn-warning' onClick={() => DeleteStudent(s._id)}>DELETE</button></td>
             </tr>
           ))}
         </tbody>

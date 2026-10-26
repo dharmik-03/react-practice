@@ -8,7 +8,7 @@ export const Navbars = () => {
     const navigate=useNavigate()
 
   return (
-    <Navbar expand="lg" className="bg-warning">
+    <Navbar expand="lg" className="bg-info rounded-3">
       <Container>
         <Navbar.Brand href="#home">Student M System</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
